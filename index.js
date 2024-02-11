@@ -1,7 +1,13 @@
-let texto = ("Minha Primeira aparação no Java script")
-console.log(texto)
-let texto1 = ("Adicionei minha segunda variavel")
-console.log(texto1)
-
-
-
+console.log("Possui computador?")
+let resPosta = true
+possuiComputador = resPosta
+let hardWare = ""
+ 
+if(possuiComputador){
+    console.log("sim")
+    hardWare = "Memoria"
+    console.log("Esta precisando de mais " + hardWare)
+}
+else{
+    console.log("É você não tem um computador, que pena!")       
+}
